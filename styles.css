@@ -1,0 +1,26 @@
+body:not(#puntuacion) {
+    font-family: sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 15%;
+}
+#confirmar {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+#jugador1 {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+#adivinar-palabra {
+    display: none;
+}
+#puntuacion {
+    float: right;
+    border: 2px solid  red;
+}
+#letras {
+    letter-spacing: 2px;
+}
